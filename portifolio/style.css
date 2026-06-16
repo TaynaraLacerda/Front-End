@@ -1,0 +1,67 @@
+body{
+    background-color: black(83, 186, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Menu Lateral */
+#menu{
+    background-color: rgb(164, 124, 218);
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#menu h1{
+    color: rgb(110, 1, 1);
+    text-align: center;
+}
+
+#menu p{
+    color:blue;
+    text-align: center;
+}
+
+#menu a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: rgb(238, 133, 212);
+    border-radius: 5px;
+}
+
+#menu a:hover{
+    background-color: red;
+    color: black;
+}
+
+/* Conteudo  */
+
+#conteudo{
+    margin-left: 310px;
+    padding: 20px;
+}
+
+.secao{
+    background-color: white;
+    border-left: 6px solid aqua;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.secao h2{
+    color: rgb(179, 7, 7);
+}
+
+.secao p{
+    color: blueviolet;
+}
+
+.secao li{
+    color: rgb(55, 54, 156);
+}

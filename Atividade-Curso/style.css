@@ -85,3 +85,7 @@ footer{
     text-align: center;
     padding: 20px;
 }
+button a{
+    text-decoration: none;
+    color: white;
+}
